@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #141414;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.checked {
+  transform: rotateY(180px);
+  background: linear-gradient(to left, #8e0e00, #1f1c18) !important;
+  position: relative;
+}
+
+.checked::after {
+  content: "";
+  width: 3px;
+  height: 100%;
+  background: #f2f2f2 !important;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.checked h1 {
+  text-decoration: line-through;
+  color: #f2f2f2;
+}
+.nope {
+  background: #8e8b8b !important;
+}
