@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+###!IMPORTANT
+this app needs to be configured with firebase
+
+
 ### `yarn start`
 
 Runs the app in the development mode.\
