@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-###!IMPORTANT
+## !IMPORTANT
 this app needs to be configured with firebase
 
 
